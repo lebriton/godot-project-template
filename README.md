@@ -29,7 +29,7 @@ git clone https://github.com/lebriton/godot-project-template.git $PROJECT_NAME
 cd $PROJECT_NAME
 
 # Rename the devpod to match the project name
-sed -i "s/project-template/$PROJECT_NAME/g" .devcontainer/devcontainer.json Justfile
+sed -i "s/godot-project-template/$PROJECT_NAME/g" .devcontainer/devcontainer.json Justfile
 
 # Remove the existing git history
 rm -rf .git
