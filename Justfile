@@ -1,3 +1,8 @@
+default: godot
+
+godot:
+    nohup $GODOT4_BIN --editor > /dev/null 2>&1 &
+
 devpod-down *args:
     devpod down . {{args}}
 
