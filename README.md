@@ -20,10 +20,10 @@
 PROJECT_NAME="my-project"
 
 # Clone the repository (SSH)
-git clone git@github.com:lebriton/project-template.git $PROJECT_NAME
+git clone git@github.com:lebriton/godot-project-template.git $PROJECT_NAME
 
 # OR clone the repository (HTTPS)
-git clone https://github.com/lebriton/project-template.git $PROJECT_NAME
+git clone https://github.com/lebriton/godot-project-template.git $PROJECT_NAME
 
 # Enter the project directory
 cd $PROJECT_NAME
