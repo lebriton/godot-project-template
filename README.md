@@ -45,7 +45,7 @@ npx skills add https://github.com/casey/just --skill just -y
 npx skills add https://github.com/lebriton/skills --skill justfile-conventions -y
 
 # Additional gamedev related skills:
-# Manually select all skills in "Discipline" and "Godot" group, and also "steam-publish"
+# Manually select all skills in "Disciplines" and "Godot" group, and also "steam-publish"
 npx skills add gamedev-skills/awesome-gamedev-agent-skills
 ```
 
