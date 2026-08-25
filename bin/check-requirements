@@ -19,6 +19,8 @@ echo "Vérification des prérequis Gaia"
 echo ""
 
 ok=0
+check gdformat || ok=1
+check gdlint || ok=1
 check just || ok=1
 check pre-commit || ok=1
 

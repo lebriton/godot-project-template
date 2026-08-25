@@ -1,5 +1,5 @@
 {
-  "name": "project-template",
+  "name": "godot-project-template",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {},
   "postCreateCommand": "/bin/bash ./.devcontainer/setup.sh"

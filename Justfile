@@ -2,7 +2,7 @@ devpod-down *args:
     devpod down . {{args}}
 
 devpod-ssh *args:
-    ssh project-template.devpod {{args}}
+    ssh godot-project-template.devpod {{args}}
 
 devpod-up *args:
     devpod up . --ide none {{args}}

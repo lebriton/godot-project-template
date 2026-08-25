@@ -18,8 +18,6 @@
 
 ```bash
 PROJECT_NAME="my-project"
-# Find your technologies at https://www.toptal.com/developers/gitignore
-TECHNOLOGIES="python,docker,go"
 
 # Clone the repository (SSH)
 git clone git@github.com:lebriton/project-template.git $PROJECT_NAME
@@ -49,9 +47,6 @@ npx skills add https://github.com/lebriton/skills --skill justfile-conventions -
 # Additional gamedev related skills:
 # Manually select all skills in "Discipline" and "Godot" group, and also "steam-publish"
 npx skills add gamedev-skills/awesome-gamedev-agent-skills
-
-# Generate the .gitignore file
-wget https://www.toptal.com/developers/gitignore/api/$TECHNOLOGIES -O .gitignore
 ```
 
 # Documentation
