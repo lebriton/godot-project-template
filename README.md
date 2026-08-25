@@ -46,6 +46,10 @@ npx skills add https://github.com/github/awesome-copilot --skill conventional-co
 npx skills add https://github.com/casey/just --skill just -y
 npx skills add https://github.com/lebriton/skills --skill justfile-conventions -y
 
+# Additional gamedev related skills:
+# Manually select all skills in "Discipline" and "Godot" group, and also "steam-publish"
+npx skills add gamedev-skills/awesome-gamedev-agent-skills
+
 # Generate the .gitignore file
 wget https://www.toptal.com/developers/gitignore/api/$TECHNOLOGIES -O .gitignore
 ```
