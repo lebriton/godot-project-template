@@ -19,6 +19,3 @@ pip install --break-system-packages pre-commit
 
 # Configure project
 just setup
-
-# Install opencode
-curl -fsSL https://opencode.ai/install | bash
